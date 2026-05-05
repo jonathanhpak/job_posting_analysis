@@ -60,7 +60,7 @@ sns.stripplot(
     order=level_order,
     ax=ax,
     color="black",
-    alpha=0.15,
+    alpha=0.5,
     size=2,
 )
 
