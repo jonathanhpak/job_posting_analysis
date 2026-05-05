@@ -68,7 +68,7 @@ ax.set_title("Annual Salary Distribution by Experience Level", fontsize=16, font
 ax.set_xlabel("Experience Level", fontsize=12)
 ax.set_ylabel("Normalized Annual Salary", fontsize=12)
 ax.yaxis.set_major_formatter("${x:,.0f}")
-ax.tick_params(axis="x", rotation=30)
+ax.tick_params(axis="x")
 
 fig.tight_layout()
 plt.savefig("salary_boxplot.png", dpi=300, bbox_inches="tight")
