@@ -2,6 +2,10 @@
 __pycache__/
 *.py[codz]
 *$py.class
+.DS_Store
+
+# Large local data files
+data/postings.csv
 
 # C extensions
 *.so
